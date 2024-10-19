@@ -1,6 +1,6 @@
-set(CMAKE_HOST_SYSTEM "Linux-6.11.2-arch1-1")
+set(CMAKE_HOST_SYSTEM "Linux-6.11.3-arch1-1")
 set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "6.11.2-arch1-1")
+set(CMAKE_HOST_SYSTEM_VERSION "6.11.3-arch1-1")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
 include("/opt/esp-idf/tools/cmake/toolchain-esp32c3.cmake")

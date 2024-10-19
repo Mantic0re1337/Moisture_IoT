@@ -5441,6 +5441,37 @@
     {
         "children": [
             {
+                "children": [],
+                "depends_on": null,
+                "help": "The size of array that will be used to retrieve the list of access points.",
+                "id": "EXAMPLE_SCAN_LIST_SIZE",
+                "name": "EXAMPLE_SCAN_LIST_SIZE",
+                "range": [
+                    0,
+                    20
+                ],
+                "title": "Max size of scan list",
+                "type": "int"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": "Enable this to scan only the non overlapping channels i.e 1,6,11 by mentioning a channel bitmap\nin scan config. If you wish to scan a different set of specific channels, please edit the channel_list\narray in scan.c. Channels for a 2.4 ghz network range should range from 1-14.",
+                "id": "EXAMPLE_USE_SCAN_CHANNEL_BITMAP",
+                "name": "EXAMPLE_USE_SCAN_CHANNEL_BITMAP",
+                "range": null,
+                "title": "Scan only non overlapping channels using Channel bitmap",
+                "type": "bool"
+            }
+        ],
+        "depends_on": null,
+        "id": "example-configuration",
+        "title": "Example Configuration",
+        "type": "menu"
+    },
+    {
+        "children": [
+            {
                 "children": [
                     {
                         "children": [],
